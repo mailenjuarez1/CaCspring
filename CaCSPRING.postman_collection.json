@@ -1,0 +1,82 @@
+{
+	"info": {
+		"_postman_id": "fc30fac4-14bc-46cd-bf6a-d4b3ab00729b",
+		"name": "CaCSPRING",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22436095"
+	},
+	"item": [
+		{
+			"name": "getProducts",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "saveProduct",
+			"request": {
+				"method": "POST",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "updateProduct",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/update/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"update",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deleteProduct",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/update/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"update",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
